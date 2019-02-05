@@ -27,4 +27,7 @@ export class QueuePolicy extends Construct {
       queues: props.queues.map(q => q.queueUrl)
     });
   }
+
+  private validate(): string[] {
+  }
 }
